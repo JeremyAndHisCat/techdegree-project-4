@@ -1,0 +1,372 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+/* line 13, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+* {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 32, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 37, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 42, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 62, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.container {
+  padding: 0 10px;
+}
+
+/* line 66, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+/* line 72, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 80, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 84, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 88, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 92, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 96, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 100, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 104, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 108, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 112, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 116, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 120, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 124, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 128, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.card {
+  flex-basis: 100%;
+}
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 137, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 144, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+/* line 155, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #58e1c1;
+}
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+/* line 165, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+/* line 175, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.default {
+  background-color: #51ddfc;
+}
+
+/* line 179, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.error {
+  background-color: #e4757a;
+}
+
+/* line 183, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.info {
+  background-color: #927bc1;
+}
+
+/* line 187, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.success {
+  background-color: #63cc82;
+}
+
+/* line 191, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.warning {
+  background-color: #fd7856;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 200, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.form {
+  flex-basis: 100%;
+}
+
+/* line 204, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+/* line 213, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 227, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 236, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 246, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 258, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 265, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 271, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 275, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 282, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 286, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 290, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 294, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 298, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 302, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 306, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 310, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 314, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 318, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 322, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 326, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 330, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 334, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 340, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 344, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 348, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 352, ../../../../../../../../../../../../../Users/jeremy/Desktop/Treehouse/project4/techdegree-project-4/scss/styles.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
